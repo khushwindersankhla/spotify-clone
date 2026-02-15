@@ -1,20 +1,445 @@
-.silder-man{
-    height: 100vh;
+.silder-man {
+    height: 300vh;
     width: 213.7vh;
-    background-color: red;
+    background-color: rgb(0, 0, 0);
     display: flex;
 }
-.silder-one{
-    height: 90vh;
+
+.silder-one {
+    height: 170vh;
     width: 80vh;
-    background-color: white;
+    border-radius: 3vh;
+    background-color: rgb(172, 75, 75);
 }
-.silder-two{
-    height: 90vh;
+
+.silder-two {
+    height: 300vh;
     width: 140vh;
-    background-color: antiquewhite;
+    background-color: rgb(0, 0, 0);
+    margin-left: 1vh;
+    border-radius: 3vh;
+}
+
+#trading {
+    color: white;
+    margin-left: 3vh;
+
+
+}
+
+.silder-music {
+    height: 55vh;
+    width: 135vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    overflow: hidden;
+}
+
+.silder-music-one {
+    height: 41vh;
+    width: 43vh;
+    background-color: rgb(0, 0, 0);
+    margin: 2vh;
+
+}
+
+.silder-music-one img {
+    margin-left: 0.4vh;
+}
+
+.silder-music-one:hover {
+    background-color: rgb(24, 23, 23);
+    border-radius: 2vh;
+}
+
+.silder-music-one img {
+    height: 28vh;
+    width: 29vh;
+    border-radius: 2vh;
+}
+
+#dil {
+    font-size: 2.8vh;
+    color: rgb(255, 255, 255);
+    padding-top: 1vh;
+    transition: 0.9;
+}
+
+#dil:hover {
+    text-decoration: underline;
+}
+
+#krish {
+    color: rgb(227, 223, 223);
+    font-size: 2.6vh;
+    transition: 0.9;
+    padding-top: 1vh;
+
+}
+
+#krish:hover {
+    text-decoration: underline;
+}
+
+#box {
+    height: 10vh;
+    width: 10vh;
+    background-color: green;
+    position: absolute;
+    border-radius: 7vh;
+    margin-left: 19vh;
+    margin-top: 16vh;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+#box:hover {
+    opacity: 1;
+}
+
+.popular {
+    color: white;
+    margin-left: 3vh;
+}
+
+#show {
+    margin-left: 120vh;
+    font-size: 2vh;
+}
+
+.singer {
+    height: 55vh;
+    width: 135vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+}
+
+.singerlist {
+    height: 29vh;
+    width: 29vh;
+    background-color: rgb(0, 0, 0);
+    margin: 1.8vh;
+    border-radius: 20vh;
+    /* transition: 0.3s; */
+}
+
+.singerlist:hover {
+    height: 40vh;
+    /* width: 30vh; */
+    background-color: rgb(24, 23, 23);
+    border-radius: 1vh;
+}
+
+.singerlist img {
+    height: 29vh;
+    width: 29vh;
+    border-radius: 20vh;
+    margin-left: 0.5vh;
+}
+
+#pree {
+    margin-left: 1vh;
+    color: white;
+}
+
+#artist {
+    margin-left: 1vh;
+    padding-top: 1vh;
+    color: white;
+}
+
+.pre {
+    height: 5vh;
+    width: 5vh;
+    position: absolute;
+    background-color: white;
+    border-radius: 5vh;
+    margin-top: 19vh;
+    margin-left: 2vh;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.pre:hover {
+    opacity: 1;
+}
+
+.back {
+    height: 5vh;
+    width: 5vh;
+    position: absolute;
+    background-color: white;
+    border-radius: 5vh;
+    margin-left: 127vh;
+    margin-top: 19vh;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.back:hover {
+    opacity: 1;
+}
+
+.play {
+    height: 10vh;
+    width: 10vh;
+    background-color: green;
+    position: absolute;
+    border-radius: 7vh;
+    margin-left: 19vh;
+    margin-top: 17vh;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.play:hover {
+    opacity: 1;
+}
+
+.popular-music {
+    color: white;
+    margin-left: 3vh;
+}
+
+.popular-music-list {
+    height: 55vh;
+    width: 135;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+}
+
+.music-list-one {
+    height: 41vh;
+    width: 43vh;
+    /* background-color: rgb(202, 21, 21); */
+    margin: 2vh;
+}
+.music-list-one:hover{
+    background-color: rgb(42, 41, 41);
+    border-radius: 1vh;
+}
+
+.music-list-one img {
+    height: 28vh;
+    width: 29vh;
+    border-radius: 2vh;
+    margin-left: 1vh;
+}
+
+#sanam {
+    margin-left: 2vh;
+    color: white;
+}
+
+#Himesh {
+    margin-left: 2vh;
+    color: white;
+    margin-top: 1vh;
+}
+
+.radio {
+    height: 60vh;
+    width: 135;
+    background-color: rgb(27, 18, 3);
+    display: flex;
+    
+}
+
+.radio-one {
+    height: 41vh;
+    width: 30vh;
+    /* background-color: rgb(202, 21, 21); */
+    margin: 2vh;
+    border-radius: 1vh;
+}
+
+.radio-one:hover{
+      
+    background-color: rgb(42, 41, 41);
+    border-radius: 1vh;
+}
+.radio-one img {
+    height: 28vh;
+    width: 29vh;
+    border-radius: 2vh;
+    margin-left: 0.5vh;
+}
+
+#With {
+    color: rgb(189, 184, 184);
+    margin-left: 2vh;
+    padding-top: 1vh;
+}
+#radio{
+    position: absolute;
+    color: white;
+    margin-top: -7vh;
+    margin-left: 3vh;
+}
+.footer{
+    height: 50vh;
+    width: 140vh;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+}
+hr{
+    width: 140vh;
+}
+.footer-one{
+    height: 40vh;
+    width: 26vh;
+    background-color: rgb(0, 0, 0);
+    margin: 1vh;
+}
+#about{
+    /* line-height: 4vh;     */
+    margin-top: 2vh;
+    color: white;
+}
+#com{
+
+    color: white;
+}
+.footer-two{
+    height: 40vh;
+    width: 26vh;
+    background-color: rgb(0, 0, 0);
+    margin: 1vh;
+    display: flex;
+}
+.footer-icon{
+    height: 6vh;
+    width: 6vh;
+    background-color: rgb(152, 148, 148);
+    margin: 1vh;
+    border-radius: 3vh;
+}
+.footer-icon:hover{
+  background-color: rgb(202, 200, 200);   
+}
+.footer-three{
+    color: white;
+    margin-top: 3vh;
+    margin-left: 10vh;
+}
+.library{
+    display: flex;
+}
+#your{
+    color: white;
+     margin: 3vh;
+     font-size: 3vh;
+}
+#create{
+    height: 6vh;
+    width: 18vh;
+    background-color: aliceblue;
+    margin-left: 23vh;
+    margin-top: 2vh;
+    border-radius: 2vh;
+}
+#cre{
+    margin-left: 7vh;
+    margin-top: 1.5vh;
+    
+}
+#create-box{
+    height: 35vh;
+    width: 62vh;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    margin-left: 46vh;
+    margin-top: 10vh;
+    border-radius: 2vh;
+    /* display: none; */
+    opacity: 3;
+}
+.create-one{
+    height:10vh;
+    width: 59vh;
+    background-color: rgb(0, 0, 0);
+    margin-top: 1vh;
+    margin-left: 0.8vh;
+}
+.create-one:hover{
+    background-color: rgb(66, 65, 65);
+}
+#list{
+    padding-top: 1vh;
+    margin-left: 10vh;
+    color: white;
+}
+#episodes{
+    margin-left: 10vh;
+    color: white;
+}
+.khus{
+    height: 9vh;
+    width: 9vh;
+    position: absolute;
+    background-color: gray;
+    border-radius: 6vh;
+    color: white;
+
+}
+#beamed{
+    font-size: 6vh;
+    margin: 1.5vh;
+}
+#beamed:hover{
+    color: forestgreen;
+}
+.first-playlist{
+    font-size: 2vh;
+    color: white;
+    margin-left: 4vh;
+    margin-top: 8vh;
+}
+#help{
+    font-size: 2.5vh;
+    margin-top: 1vh;
+}
+.btn button{
+    height: 6vh;
+    width: 21vh;
+    border-radius: 4vh;
+    border: 1vh solid white;
+    background-color: white;
+    margin-top: 3vh;
+
+}
+.btn-box{
+    height: 20vh;
+    width: 50vh;
+    background-color: rgb(4, 161, 179);
+    position: absolute;
+    margin-left: 69vh;
+    margin-top: -5vh;
+    border-radius: 3vh;
+}
+#james{
+    margin: 2vh;
+    color: black;
+    font-size: 3vh;
+}
+#share{
+    font-size: 2.4vh;
     margin-left: 2vh;
 }
-.silder-text h2{
-   
+#not{
+   color: rgb(0, 0, 0);
+    margin-top: 4vh;
+    margin-left: 20vh;
+}
+.now{
+    display: flex;
+}
+.log button{
+    height: 5vh;
+    width: 12vh;
+    margin-top: 3vh;
+    margin-left: 5vh;
+    border-radius: 4vh;
+    background-color: white;
+    border: 1vh solid white;
 }
