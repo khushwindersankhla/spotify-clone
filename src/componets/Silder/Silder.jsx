@@ -20,9 +20,7 @@ import { IoIosArrowBack } from "react-icons/io";
 import { BsMusicNoteBeamed } from "react-icons/bs";
 import { FaRegFolder } from "react-icons/fa";
 import { LuBlend } from "react-icons/lu";
-
 import { IoIosArrowForward } from "react-icons/io";
-
 import { FaOptinMonster, FaPlay } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io";
 import { FaTwitter } from "react-icons/fa";
@@ -55,7 +53,7 @@ import { useState } from 'react'
 function Silder() {
 
     const [showBox, setShowBox] = useState(false);
-    const [box, setBox] = useState(false); 
+    const [box, setBox] = useState(false);
 
     function hideshow() {
         setShowBox(!showBox);
@@ -63,7 +61,7 @@ function Silder() {
     function khus() {
         setBox(prev => !prev);
     }
-   
+
 
 
     return (
@@ -99,16 +97,28 @@ function Silder() {
                     <div className="first-playlist">
                         <h2 id='first-playlist'>Create your first playlist</h2>
                         <p id='help'>It's easy, we'll help you</p>
-                        <div className="btn"onClick={khus} style={{cursor:"pointer"}}><button><b>Create playlit</b></button></div>
-                         {box &&(<div className="btn-box">
+                        <div className="btn" onClick={khus} style={{ cursor: "pointer" }}><button><b>Create playlit</b></button></div>
+                        {box && (<div className="btn-box">
                             <h3 id='james'>Create a playlist</h3>
                             <p id='share'>Log in to create and share playlists.</p>
-                             <div className="now">
+                            <div className="now">
                                 <div id="not"><h3>Not now</h3></div>
                                 <div className="log"><button><b>Log in</b></button></div>
-                             </div>
-                         </div>)}
+                            </div>
+                        </div>)}
+
+                        <div className="find">
+                            <h3 id='some'>Let's Find some podcasts to Follow </h3>
+                            <p id='new'>We'll keep you updated on new episodes</p>
+                            <button id='butt'><b>Browse podcasts</b></button>
                         </div>
+                        <div className="legal-footer">
+                            <p id='cookes'> Legal  saftey&Privacy  center   Privacy Policy   Cookies</p>
+                            <p id='ads'>About Ads    Accessibility</p>
+                            <p id='coo'>Cookies</p>
+                            <button id='english'><b>English</b></button>
+                        </div>
+                    </div>
 
                 </div>
                 <div className="silder-two">
